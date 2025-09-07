@@ -1,0 +1,19 @@
+{
+    "id": "0001",
+    "name": "Cocotier",
+    "description": "No description",
+    "coords": {
+        "x": -3319,
+        "y": -60,
+        "z": -3606
+    },
+    "tags": ["grand", "tropical", "fruitier"],
+    "size": {
+        "length": 18,
+        "width": 18,
+        "height": 20
+    },
+    "img_paths": [
+        "0001"
+    ]
+}

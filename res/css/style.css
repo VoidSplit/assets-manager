@@ -1,0 +1,11 @@
+@import url('./utils/fonts.css');
+@import url('./utils/variables.css');
+@import url('./utils/reset.css');
+
+@import url('./utils/app.css');
+
+@import url('./layouts/navbar.css');
+@import url('./layouts/search_section.css');
+@import url('./layouts/catalog_section.css');
+@import url('./layouts/faq_section.css');
+@import url('./layouts/footer.css');

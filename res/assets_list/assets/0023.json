@@ -1,0 +1,19 @@
+{
+    "id": "0023",
+    "name": "Peuplier",
+    "description": "No description",
+    "coords": {
+        "x": -3269,
+        "y": -60,
+        "z": -3637
+    },
+    "tags": ["petit"],
+    "size": {
+        "length": 3,
+        "width": 3,
+        "height": 8
+    },
+    "img_paths": [
+        "0023"
+    ]
+}

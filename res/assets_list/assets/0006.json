@@ -1,0 +1,19 @@
+{
+    "id": "0006",
+    "name": "Sapin",
+    "description": "No description",
+    "coords": {
+        "x": -3305,
+        "y": -60,
+        "z": -3621
+    },
+    "tags": ["moyen"],
+    "size": {
+        "length": 7,
+        "width": 7,
+        "height": 19
+    },
+    "img_paths": [
+        "0006"
+    ]
+}

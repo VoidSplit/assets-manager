@@ -1,0 +1,19 @@
+{
+    "id": "0011",
+    "name": "Peuplier",
+    "description": "No description",
+    "coords": {
+        "x": -3304,
+        "y": -60,
+        "z": -3653
+    },
+    "tags": ["grand"],
+    "size": {
+        "length": 9,
+        "width": 8,
+        "height": 31
+    },
+    "img_paths": [
+        "0011"
+    ]
+}

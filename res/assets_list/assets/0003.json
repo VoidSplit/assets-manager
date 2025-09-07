@@ -1,0 +1,19 @@
+{
+    "id": "0003",
+    "name": "Palmier",
+    "description": "No description",
+    "coords": {
+        "x": -3337,
+        "y": -60,
+        "z": -3631
+    },
+    "tags": ["moyen", "tropical"],
+    "size": {
+        "length": 11,
+        "width": 11,
+        "height": 10
+    },
+    "img_paths": [
+        "0003"
+    ]
+}

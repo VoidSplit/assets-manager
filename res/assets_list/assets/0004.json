@@ -1,0 +1,19 @@
+{
+    "id": "0004",
+    "name": "Albizia",
+    "description": "No description",
+    "coords": {
+        "x": -3344,
+        "y": -60,
+        "z": -3610
+    },
+    "tags": ["moyen", "tropical", "fleuri"],
+    "size": {
+        "length": 14,
+        "width": 14,
+        "height": 13
+    },
+    "img_paths": [
+        "0004"
+    ]
+}

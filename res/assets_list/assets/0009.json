@@ -1,0 +1,19 @@
+{
+    "id": "0009",
+    "name": "Alisier blanc",
+    "description": "No description",
+    "coords": {
+        "x": -3278,
+        "y": -60,
+        "z": -3606
+    },
+    "tags": ["petit"],
+    "size": {
+        "length": 5,
+        "width": 4,
+        "height": 6
+    },
+    "img_paths": [
+        "0009"
+    ]
+}

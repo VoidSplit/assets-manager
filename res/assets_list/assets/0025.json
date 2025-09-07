@@ -1,0 +1,19 @@
+{
+    "id": "0025",
+    "name": "Bouleau",
+    "description": "No description",
+    "coords": {
+        "x": -3249,
+        "y": -60,
+        "z": -3617
+    },
+    "tags": ["grand"],
+    "size": {
+        "length": 13,
+        "width": 12,
+        "height": 22
+    },
+    "img_paths": [
+        "0025"
+    ]
+}

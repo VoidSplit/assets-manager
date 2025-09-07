@@ -1,0 +1,19 @@
+{
+    "id": "0017",
+    "name": "Sapin",
+    "description": "No description",
+    "coords": {
+        "x": -3266,
+        "y": -60,
+        "z": -3606
+    },
+    "tags": ["petit"],
+    "size": {
+        "length": 4,
+        "width": 5,
+        "height": 13
+    },
+    "img_paths": [
+        "0017"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "0012",
+    "name": "Chêne",
+    "description": "No description",
+    "coords": {
+        "x": -3343,
+        "y": -60,
+        "z": -3649
+    },
+    "tags": ["moyen"],
+    "size": {
+        "length": 10,
+        "width": 12,
+        "height": 12
+    },
+    "img_paths": [
+        "0012"
+    ]
+}
