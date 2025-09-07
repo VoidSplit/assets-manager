@@ -58,9 +58,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     catalog_content.innerHTML = ""
     // OK
     all.filter(el => 
-      el.content.id.toLowerCase().includes(filter.toLowerCase().trim()) ||
-      el.content.tags.some(t => t.toLowerCase().trim().includes(filter)) ||
-      el.content.name.toLowerCase().includes(filter.toLowerCase().trim())
+      el.content.id.toLowerCase().trim().includes(filter.toLowerCase().trim()) ||
+      el.content.tags.some(t => t.toLowerCase().trim().includes(filter.toLowerCase().trim())) ||
+      el.content.name.toLowerCase().trim().includes(filter.toLowerCase().trim())
     ).filter(r => r.content).forEach(el => {
         asset = el.content
 
