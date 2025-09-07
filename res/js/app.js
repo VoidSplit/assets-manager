@@ -10,7 +10,7 @@ const BLACKLIST = new Set([])
 const idOf = (n, width = 4) => String(n).padStart(width, "0")
 
 async function fetchOne(id) {
-  const url = `https://voidsplit.github.io/assets-manager/res/assets_list/assets/${id}.json`
+  const url = `res/assets_list/assets/${id}.json`
 
   try {
     const res = await fetch(url, { cache: "no-store" })
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         let image = document.createElement('div')
         image.classList = "image"
-        image.style.backgroundImage = `url("/res/medias/trees/${asset.img_paths[0]}.png")`
+        image.style.backgroundImage = `url("https://voidsplit.github.io/assets-manager/res/medias/trees/${asset.img_paths[0]}.png")`
 
 
         let tag_list = document.createElement('div')
