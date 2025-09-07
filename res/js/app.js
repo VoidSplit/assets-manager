@@ -10,7 +10,7 @@ const BLACKLIST = new Set([])
 const idOf = (n, width = 4) => String(n).padStart(width, "0")
 
 async function fetchOne(id) {
-  const url = `res/assets_list/assets/${id}.json`
+  const url = `https://voidsplit.github.io/assets-manager/res/assets_list/assets/${id}.json`
 
   try {
     const res = await fetch(url, { cache: "no-store" })
