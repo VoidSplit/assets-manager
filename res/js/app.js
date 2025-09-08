@@ -69,7 +69,7 @@ class Modal {
   }
   set_asset(asset) {
     v_name.innerText = asset.name
-    v_id.innerText = asset.id
+    v_id.innerText = `#${asset.id}`
     v_description.innerText = asset.description
     v_x.innerText = asset.coords.x
     v_y.innerText = asset.coords.y
