@@ -45,6 +45,52 @@ async function loadAllExceptBlacklist() {
   return results
 }
 
+const visualisation_modal_dom = document.getElementById('visualizer')
+
+const v_name = document.getElementById('v_name')
+const v_id = document.getElementById('v_id')
+const v_img = document.getElementById('v_img')
+const v_tags = document.getElementById('v_tags')
+const v_description = document.getElementById('v_description')
+const v_x = document.getElementById('v_coords_x')
+const v_y = document.getElementById('v_coords_y')
+const v_z = document.getElementById('v_coords_z')
+const v_w = document.getElementById('v_size_w')
+const v_l = document.getElementById('v_size_l')
+const v_h = document.getElementById('v_size_h')
+
+// --- CLASSES ---
+class Modal {
+  open() {
+    visualisation_modal_dom.classList = "open"
+  }
+  close() {
+    visualisation_modal_dom.classList = ""
+  }
+  set_asset(asset) {
+    v_name.innerText = asset.name
+    v_id.innerText = asset.id
+    v_description.innerText = asset.description
+    v_x.innerText = asset.coords.x
+    v_y.innerText = asset.coords.y
+    v_z.innerText = asset.coords.z
+    v_w.innerText = asset.size.width
+    v_l.innerText = asset.size.length
+    v_h.innerText = asset.size.height
+    v_img.style.backgroundImage = `url("${LOCAL == true ? "." : "https://voidsplit.github.io/assets-manager"}/res/medias/trees/${asset.img_paths[0]}.png")`
+    v_tags.innerHTML = ``
+    asset.tags.forEach(tag => {
+      console.log(tag)
+      let span = document.createElement('span')
+      span.innerText = tag
+      v_tags.append(span)
+    })
+    this.open()
+  }
+}
+
+let visualisation_modal = new Modal()
+
 // --- MAIN ---
 document.addEventListener("DOMContentLoaded", async () => {
   const searchInput = document.getElementById("search")
@@ -115,6 +161,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         let button = document.createElement("button")
         button.textContent = "Voir plus"
+
+        button.addEventListener('click', (e) => {
+          visualisation_modal.set_asset(el.content)
+          visualisation_modal.open()
+        })
 
         catalog_content.append(DOM)
         DOM.append(name_row, image, tag_list, info_list, button)
