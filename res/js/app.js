@@ -1,6 +1,5 @@
 // --- DOM PARENTS ---
 const catalog_content = document.getElementById('catalog_content')
-const number_of_models = document.getElementById('number_of_models')
 
 // --- CONFIG ---
 const NB_FILES = 25
@@ -50,8 +49,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const searchInput = document.getElementById("search")
 
   const all = await loadAllExceptBlacklist()
-
-  number_of_models.innerText = `${all.length}`
 
   // render the list
   function renderList(filter = "") {
