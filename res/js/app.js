@@ -4,6 +4,7 @@ const catalog_content = document.getElementById('catalog_content')
 // --- CONFIG ---
 const NB_FILES = 25
 const BLACKLIST = new Set([])
+const LOCAL = false
 
 // --- HELPERS ---
 const idOf = (n, width = 4) => String(n).padStart(width, "0")
@@ -75,7 +76,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         let image = document.createElement('div')
         image.classList = "image"
-        image.style.backgroundImage = `url("https://voidsplit.github.io/assets-manager/res/medias/trees/${asset.img_paths[0]}.png")`
+        image.style.backgroundImage = `url("${LOCAL == true ? "." : "https://voidsplit.github.io/assets-manager"}/res/medias/trees/compressed/${asset.img_paths[0]}.png")`
 
 
         let tag_list = document.createElement('div')
