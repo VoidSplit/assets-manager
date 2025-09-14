@@ -80,7 +80,6 @@ class Modal {
     v_img.style.backgroundImage = `url("${LOCAL == true ? "." : "https://voidsplit.github.io/assets-manager"}/res/medias/trees/${asset.img_paths[0]}.png")`
     v_tags.innerHTML = ``
     asset.tags.forEach(tag => {
-      console.log(tag)
       let span = document.createElement('span')
       span.innerText = tag
       v_tags.append(span)

@@ -2,6 +2,7 @@
 @import url('./utils/variables.css');
 @import url('./utils/reset.css');
 
+@import url('./utils/scrollbar.css');
 @import url('./utils/app.css');
 
 @import url('./layouts/navbar.css');

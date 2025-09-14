@@ -34,6 +34,7 @@
   flex-direction: row;
   align-items: center;
   gap: 5px;
+  overflow: auto;
 }
 .card .tag-list span {
   background-color: var(--green);
