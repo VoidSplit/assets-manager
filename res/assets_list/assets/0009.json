@@ -1,14 +1,14 @@
 {
     "id": "0009",
     "name": "Alisier blanc",
-    "description": "No description",
+    "description": "L’alisier blanc est une essence rare des forêts claires et coteaux calcaires. Ses fruits, appelés alises, sont comestibles après blettissement et servaient autrefois à la fabrication de boissons fermentées. Son bois dur était utilisé en tournerie.",
     "author": "VoidSplit1",
     "coords": {
         "x": -3278,
         "y": -60,
         "z": -3606
     },
-    "tags": ["petit"],
+    "tags": ["petit", "fruitier"],
     "size": {
         "length": 5,
         "width": 4,
