@@ -1,0 +1,20 @@
+{
+    "id": "0026",
+    "name": "Micocoulier",
+    "description": "Le micocoulier de provence ou micocoulier du midi une essence subtropicale et de climat tempéré doux. Son fruit est comestible et son bois était réputé pour de nombreux usages.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3248,
+        "y": -60,
+        "z": -3598
+    },
+    "tags": ["grand", "temperé"],
+    "size": {
+        "length": 12,
+        "width": 11,
+        "height": 15
+    },
+    "img_paths": [
+        "0026"
+    ]
+}
