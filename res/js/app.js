@@ -2,7 +2,7 @@
 const catalog_content = document.getElementById('catalog_content')
 
 // --- CONFIG ---
-const NB_FILES = 28
+const NB_FILES = 29
 const BLACKLIST = new Set([])
 const LOCAL = false
 
