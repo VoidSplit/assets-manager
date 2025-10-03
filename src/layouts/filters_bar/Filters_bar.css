@@ -147,5 +147,12 @@
         height: 100%;
         padding-top: 8px;
     }
+    .filters_bar .filter_container ul {
+        overflow: hidden auto;
+        max-height: 250px;
+    }
+    .filters_bar .filter_container li {
+        min-height: 35px;
+    }
 
 }
