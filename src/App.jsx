@@ -4,7 +4,7 @@ import { Filters_bar } from "./layouts/filters_bar/Filters_bar";
 import { Grid } from "./layouts/grid/Grid";
 import { Sidebar } from "./layouts/sidebar/Sidebar";
 import { Footer } from "./components/footer/Footer";
-import { Modal } from "./components/modal/modal";
+import { Modal } from "./components/modal/Modal";
 
 function App() {
   const [filters, setFilters] = useState({
