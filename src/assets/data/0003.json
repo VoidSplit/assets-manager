@@ -1,0 +1,20 @@
+{
+    "id": "0003",
+    "name": "Palmier",
+    "description": "Le palmier regroupe diverses essences tropicales et subtropicales au port élancé. Il est cultivé pour ses dattes, ses fruits ou son huile, mais aussi comme arbre décoratif. Symbole d’exotisme, il orne souvent les jardins méditerranéens. ",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3337,
+        "y": -60,
+        "z": -3631
+    },
+    "tags": ["moyen", "tropical", "vert", "exotique"],
+    "size": {
+        "length": 11,
+        "width": 11,
+        "height": 10
+    },
+    "img_paths": [
+        "0003"
+    ]
+}

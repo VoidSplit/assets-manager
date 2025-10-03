@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,body {
+    min-height: 100vh;
+    height: 100%;
+}
+#app {
+    background-color: #101014;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    overflow: hidden;
+}
+#app .content_parent {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100%;
+    padding: 50px 0 25px
+}
+#app .content_parent .grid_manager_parent {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    height: 100%;
+    gap: 8px;
+}
+#app .content_parent .grid_parent {
+    overflow: hidden scroll;
+    height: 100%;
+    max-height: calc(100vh - 75px);
+}
+@media screen and (max-width: 825px) {
+    #app {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .content_parent {
+            padding-top: 0;
+            .grid_manager_parent {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+    }
+}

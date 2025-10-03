@@ -1,0 +1,20 @@
+{
+    "id": "0032",
+    "name": "Chêne brulé",
+    "description": "Le chêne brûlé est un arbre imposant dont l’écorce sombre porte les traces du feu. Malgré son aspect marqué, il conserve une vigueur remarquable et déploie un large feuillage dense. Symbole de force et de résilience, son bois dur reste recherché pour sa solidité et sa longévité.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3354,
+        "y": -60,
+        "z": -3582
+    },
+    "tags": ["moyen", "brulé", "gris", "gris_clair", "blanc", "commun"],
+    "size": {
+        "length": 9,
+        "width": 6,
+        "height": 12
+    },
+    "img_paths": [
+        "0032"
+    ]
+}

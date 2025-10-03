@@ -1,0 +1,44 @@
+#faq {
+    background-color: #101014;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    overflow: hidden;
+}
+
+#faq .inner {
+    margin: 80px auto;
+    max-width: 1000px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: auto;
+}
+#faq .text-box {
+    padding: 0 8px;
+}
+#faq .text-box h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #E8E8E9;
+}
+#faq .text-box p {
+    color: #929294;
+}
+#faq .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media screen and (max-width: 825px) {
+    #faq {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .inner {
+            padding: 0 25px;
+            margin: 10px 10px 0 10px;
+        }
+    }
+}

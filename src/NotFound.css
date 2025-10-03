@@ -1,0 +1,72 @@
+.notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #101014;
+  color: #E8E8E9;
+  text-align: center;
+  flex-direction: column;
+}
+
+.notfound-content {
+  max-width: 420px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  animation: fadeIn 0.6s ease;
+}
+
+.notfound-logo {
+  width: 64px;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  color: #929294;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.back-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  border: 1px solid #E8E8E9;
+  border-radius: 8px;
+  color: #E8E8E9;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #E8E8E9;
+  color: #101014;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

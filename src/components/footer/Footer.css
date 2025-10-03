@@ -1,0 +1,38 @@
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .tabulation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer ul {
+    display: flex;
+    gap: 8px
+}
+.footer li {
+    border: 1px dashed #202024;
+    color: #E8E8E9;
+    list-style-type: none;
+    height: 40px;
+    width: 40px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer li.active {
+    background-color: #343437;
+    border: 1px dashed #343437;
+    color: #E8E8E9;
+}
+.footer li:hover {
+    background-color: #202024;
+    color: #E8E8E9;
+}

@@ -1,127 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:type" content="website" />
-    <title>Assets Manager - Catalogue</title>
-    <meta property="og:title" content="Assets Manager - Catalogue" />
-    <meta property="og:description" content="Découvrez tout un catalogue d'assets pour pouvoir décorer votre projet !" />
-    <meta name="description" content="Découvrez tout un catalogue d'assets pour pouvoir décorer votre projet !" />
-    <meta property="og:image" content="res/medias/icons/white_logo.svg" />
-
-    <link rel="stylesheet" href="res/css/style.css">
-    <link rel="shortcut icon" href="res/medias/icons/white_logo.svg" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
-    <script src="res/js/app.js" defer></script>
-</head>
-<body>
-    <div id="app">
-        <nav>
-            <img src="res/medias/icons/white_logo.svg" alt="">
-            <ul>
-                <li><a href="#search">Rechercher</a></li>
-                <li><a href="#catalogue">Catalogue</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-        <main>
-
-        <section id="search">
-            <div class="left">
-                <div class="text">
-                    <h1>Bienvenue sur le catalogue !</h1>
-                    <p>Recherchez des arbres parmis <span id="number_of_models"></span> modèles différents !</p>
-                </div>
-                <div class="search_bar_box">
-                    <div class="search_bar">
-                        <input type="text" id="search" placeholder="Recherchez via un nom ou ID">
-                    </div>
-                    <a href="#catalogue">Voir les assets</a>
-                </div>
-            </div>
-        </section>
-        <div id="visualizer">
-            <div class="inner">
-                <div class="top">
-                    <p class="name" id="v_name">Cocotier</p>
-                    <span class="id" id="v_id">#0001</span>
-                </div>
-                <div class="image" id="v_img" style="background-image: url('/res/medias/trees/0001.png');"></div>
-                <div class="tags" id="v_tags">
-                    <span>grand</span>
-                    <span>tropical</span>
-                    <span>fruitier</span>
-                </div>
-                <div class="description" id="v_description">
-                    <p class="text">Description indisponible.</p>
-                </div>
-                <div class="infos">
-                    <div class="left">
-                        <h3 class="label">Coordonnées</h3>
-                        <div class="rows">
-                            <div class="x">
-                                <span>x</span>
-                                <p id="v_coords_x">-3319</p>
-                            </div>
-                            <div class="y">
-                                <span>y</span>
-                                <p id="v_coords_y">-60</p>
-                            </div>
-                            <div class="z">
-                                <span>z</span>
-                                <p id="v_coords_z">-3606</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <h3 class="label">Taille</h3>
-                        <div class="rows size">
-                            <div class="x">
-                                <span>Largeur</span>
-                                <p id="v_size_w">18</p>
-                            </div>
-                            <div class="y">
-                                <span>Longueur</span>
-                                <p id="v_size_l">18</p>
-                            </div>
-                            <div class="z">
-                                <span>Hauteur</span>
-                                <p id="v_size_h">20</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button onclick="visualisation_modal.close()">Revenir au catalogue</button>
-            </div>
-        </div>
-        <section id="catalogue">
-            <div id="catalog_content" class="inner">
-                
-            </div>
-        </section>
-
-        
-        </main>
-        <footer id="footer">
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="#search">Rechercher</a>
-                    </li>
-                    <li>
-                        <a href="#catalogue">Catalogue</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="logo"><img src="res/medias/icons/white_logo.svg" alt="Logo du site" srcset=""></div>
-            <div class="copyright">© 2025 Assets Manager all rights reserved</div>
-        </footer>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/medias/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asset Manager - Un catalogue d'assets complet pour vos projets Minecraft !</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/router.jsx"></script>
+  </body>
 </html>

@@ -1,0 +1,42 @@
+
+.grid_card {
+    height: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #E8E8E9;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px dashed #343437;
+}
+.grid_card:hover {
+    background: #343437;
+}
+
+.grid_card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    background: #343437;
+}
+.grid_card .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0.6rem 0 0 0;
+}
+.grid_card .infos .name {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.grid_card .infos .id {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color: #929294
+}

@@ -1,0 +1,20 @@
+{
+    "id": "0035",
+    "name": "Saule pleureur",
+    "description": "Le saule pleureur est un arbre reconnaissable à sa silhouette élégante et mélancolique. Ses longues branches souples retombent vers le sol comme des cascades de feuillage. Il offre une ombre douce et mouvante, et sa présence évoque autant la sérénité que la nostalgie.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3280,
+        "y": -60,
+        "z": -3667
+    },
+    "tags": ["grand", "tempere", "vert", "peu_commun"],
+    "size": {
+        "length": 13,
+        "width": 13,
+        "height": 19
+    },
+    "img_paths": [
+        "0035"
+    ]
+}

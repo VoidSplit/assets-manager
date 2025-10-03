@@ -1,0 +1,67 @@
+#changelogs {
+    background-color: #101014;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    overflow: hidden;
+}
+#changelogs .changelogs_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 80px;
+    overflow: auto;
+}
+#changelogs .changelogs_inner .box {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: auto;
+}
+
+#changelogs .changelogs_h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #E8E8E9;
+}
+
+#changelogs .changelogs_inner .article_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+#changelogs .changelogs_inner article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#changelogs .changelogs_inner .article_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #E8E8E9;
+}
+#changelogs .changelogs_inner ul {
+    padding: 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #929294;
+    font-size: 0.95rem;
+}
+@media screen and (max-width: 825px) {
+    #changelogs {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        .changelogs_inner {
+            padding: 0;
+            .box {
+                padding: 35px
+            }
+        }
+    }
+}
