@@ -38,7 +38,7 @@
 }
 .filters_bar .search_bar .open_menu {
     background-color: #202024;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 0 15px;
@@ -128,6 +128,9 @@
     .filters_bar .filters {
         overflow: auto;
         gap: 0
+    }
+    .filters_bar .search_bar .open_menu {
+        display: flex;
     }
     .search_bar {
         display: flex;
