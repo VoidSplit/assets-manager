@@ -13,7 +13,7 @@ export function Modal({asset, onClose}) {
                 </div>
                 <div className="modal_content">
                     <div className="modal_image">
-                        <img src={`/src/assets/images/original/${asset.id}.png`} alt={`Image representant un ${asset.name}`} />
+                        <img src={`https://voidsplit.github.io/assets-manager/src/assets/images/original/${asset.id}.png`} alt={`Image representant un ${asset.name}`} />
                     </div>
                     <div className="modal_infos">
                         <div className="top_infos">
