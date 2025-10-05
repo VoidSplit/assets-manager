@@ -1,0 +1,20 @@
+{
+    "id": "0038",
+    "name": "Bouleau",
+    "description": "Le bouleau est un arbre gracile des régions tempérées et boréales, reconnaissable à son écorce blanche. Son bois souple a longtemps servi à la fabrication d’objets du quotidien. Sa sève est consommée au printemps et son écorce a eu des usages traditionnels variés.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3250,
+        "y": -60,
+        "z": -3533
+    },
+    "tags": ["grand", "tempere", "vert", "commun"],
+    "size": {
+        "length": 14,
+        "width": 18,
+        "height": 25
+    },
+    "img_paths": [
+        "0038"
+    ]
+}
