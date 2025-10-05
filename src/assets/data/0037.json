@@ -1,0 +1,20 @@
+{
+    "id": "0037",
+    "name": "Érable rouge",
+    "description": "L’érable rouge est un arbre ornemental remarquable pour son feuillage éclatant. Ses larges feuilles se parent de teintes rouges vives au fil des saisons, offrant un spectacle coloré du printemps à l’automne. Son port harmonieux et sa croissance régulière en font une essence prisée pour les paysages aux accents chaleureux.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3355,
+        "y": -60,
+        "z": -3570
+    },
+    "tags": ["moyen", "tempere", "rouge", "peu_commun"],
+    "size": {
+        "length": 5,
+        "width": 5,
+        "height": 14
+    },
+    "img_paths": [
+        "0037"
+    ]
+}
