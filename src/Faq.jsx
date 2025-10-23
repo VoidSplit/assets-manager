@@ -3,6 +3,7 @@ import "./Faq.css";
 import { Sidebar } from './layouts/sidebar/Sidebar';
 import { faTree } from "@fortawesome/free-solid-svg-icons";
 import { faHammer } from "@fortawesome/free-solid-svg-icons";
+import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import Simple_dropdown from './components/simple_dropdown/Simple_drodown';
 
@@ -57,8 +58,18 @@ export default function Faq() {
               </>}
             />
             <Simple_dropdown 
+                icon={faPalette}
+                title={"Pourquoi la recherche par couleur me donne parfois des arbres d’une autre couleur ?"}
+                description={<>
+                  <p>La recherche par couleur prend en compte <span className="underline bold">toutes les parties</span> de l’arbre, pas seulement les feuilles . <br />Cela signifie que la <span className="bold">couleur du tronc</span> et la <span className="bold">couleur des feuilles</span> sont utilisées pour classer les arbres.</p>
+                  <p><span className="bold underline">Par exemple :</span></p>
+                  <p>Si un arbre a un <span className="bold">tronc orange</span> mais des <span className="bold">feuilles vertes</span>, il apparaîtra dans les résultats de la <span className="bold underline">catégorie orange</span>.<br />De même, un arbre avec des <span className="underline bold">feuilles rouges</span> et un <span className="underline bold">tronc blanc</span> pourra apparaître à la fois <span className="underline bold">dans rouge et blanc</span>.</p>
+                  <p>Cette approche permet d’identifier rapidement tous les arbres qui contiennent une teinte donnée — que ce soit dans le feuillage, l’écorce ou d’autres éléments décoratifs.</p>
+                </>}
+            />
+            <Simple_dropdown 
                 icon={faHammer}
-                title={"Comment utiliser les arbres ?"}
+                title={"Comment avoir un arbre ?"}
                 description={<>
                   <p>Tous les arbres sont visibles à la fois sur le <span className="bold">site</span> (qui sert de catalogue) et directement <span className="bold">en jeu</span> dans la zone dédiée. Vous pouvez vous y promener librement pour explorer les différents arbres et trouver celui qui vous intéresse.</p>
                   <p>Lorsque vous souhaitez utiliser un arbre pour votre projet, il suffit de transmettre son <span className="bold">identifiant</span> (exemple : <span className="bold underline">#0045</span>) à un <span className="bold">administrateur</span>. Celui-ci se chargera ensuite de le <span className="bold">copier-coller</span> à l’endroit souhaité dans votre map.</p>
