@@ -12,6 +12,7 @@ function App() {
     color: [],
     size: [],
     climate: [],
+    type: [],
     search: "",
   });
 
@@ -44,7 +45,7 @@ function App() {
       }
 
       // 🎯 Filtrage par catégories
-      const categories = ["rarity", "color", "size", "climate"];
+      const categories = ["rarity", "color", "size", "climate", "type"];
       for (const cat of categories) {
         const selectedValues = filters[cat];
         if (selectedValues.length > 0) {
