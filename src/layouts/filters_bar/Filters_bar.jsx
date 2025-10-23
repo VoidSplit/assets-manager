@@ -45,12 +45,19 @@ const climateOptions = [
   { label: "Désertique", value: "desertique" },
 ];
 
+const typeOptions = [
+  { label: "Normal", value: "normal" },
+  { label: "Fantaisie", value: "fantaisie" },
+  { label: "Mort", value: "mort" },
+];
+
 export function Filters_bar({ onFiltersChange }) {
   const [filters, setFilters] = useState({
     rarity: [],
     color: [],
     size: [],
     climate: [],
+    type: [],
     search: "",
   });
 
@@ -71,6 +78,7 @@ export function Filters_bar({ onFiltersChange }) {
   const handleColor = useCallback((vals) => updateFilter("color", vals), [updateFilter]);
   const handleSize = useCallback((vals) => updateFilter("size", vals), [updateFilter]);
   const handleClimate = useCallback((vals) => updateFilter("climate", vals), [updateFilter]);
+  const handleType = useCallback((vals) => updateFilter("type", vals), [updateFilter]);
 
   const handleSearchChange = (e) => {
     updateFilter("search", e.target.value || "");
@@ -100,6 +108,7 @@ export function Filters_bar({ onFiltersChange }) {
           <Filter_parent label="Couleur" options={colorOptions} defaultSelected={[]} onChange={handleColor} />
           <Filter_parent label="Taille" options={sizeOptions} defaultSelected={[]} onChange={handleSize} />
           <Filter_parent label="Climat" options={climateOptions} defaultSelected={[]} onChange={handleClimate} />
+          <Filter_parent label="Type" options={typeOptions} defaultSelected={[]} onChange={handleType} />
         </div>
       </div>
     </div>

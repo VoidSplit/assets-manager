@@ -1,0 +1,20 @@
+{
+    "id": "0040",
+    "name": "Pin géant",
+    "description": "Le pin géant est un conifère majestueux à la silhouette droite et élancée. Son tronc massif s’élève vers le ciel, soutenant de larges branches couvertes d’aiguilles persistantes. Sa cime domine les autres arbres, symbole de force et d’endurance. Son bois, résineux et solide, est apprécié pour sa robustesse.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3237,
+        "y": -60,
+        "z": -3642
+    },
+    "tags": ["grand", "tempere", "vert", "marron", "orange", "peu_commun", "fantaisie"],
+    "size": {
+        "length": 25,
+        "width": 33,
+        "height": 70
+    },
+    "img_paths": [
+        "0040"
+    ]
+}
