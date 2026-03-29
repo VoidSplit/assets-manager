@@ -1,0 +1,20 @@
+{
+    "id": "0042",
+    "name": "Baobab",
+    "description": "Le baobab est un arbre massif au tronc renflé, capable de stocker de grandes quantités d’eau. Sa silhouette unique, avec ses branches épaisses semblant s’étirer comme des racines vers le ciel, lui donne une apparence presque irréelle. Il produit des fruits riches et son bois fibreux a de nombreux usages.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3319,
+        "y": -60,
+        "z": -3675
+    },
+    "tags": ["grand", "tropical", "vert", "marron", "exotique", "normal"],
+    "size": {
+        "length": 30,
+        "width": 39,
+        "height": 29
+    },
+    "img_paths": [
+        "0042"
+    ]
+}
