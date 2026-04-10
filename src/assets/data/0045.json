@@ -1,0 +1,20 @@
+{
+    "id": "0045",
+    "name": "Cerisier rose",
+    "description": "Le cerisier rose est un arbre gracile et ornemental, célèbre pour sa floraison spectaculaire. Au printemps, ses branches se couvrent d’une multitude de fleurs roses délicates qui transforment sa silhouette en un nuage coloré. Son feuillage apparaît ensuite, apportant une ombre légère. Il est apprécié pour la beauté de ses fleurs et leur caractère éphémère.",
+    "author": "VoidSplit1",
+    "coords": {
+        "x": -3343,
+        "y": -60,
+        "z": -3666
+    },
+    "tags": ["moyen", "tempere", "coloré", "rose", "peu_commun", "normal"],
+    "size": {
+        "length": 12,
+        "width": 2,
+        "height": 11
+    },
+    "img_paths": [
+        "0045"
+    ]
+}
