@@ -18,10 +18,6 @@ export function Grid({ assets, onCardClick }) {
             return false
         }
     }
-    console.table(assets)
-    assets.forEach(a => {
-        console.log(isWithin30Days(a.date))
-    })
     if(assets.length === 0) return (
             <div className="empty_container">
 
