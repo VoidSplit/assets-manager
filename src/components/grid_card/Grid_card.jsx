@@ -2,10 +2,11 @@ import PropTypes from 'prop-types'
 
 import './Grid_card.css'
 export function Grid_card({cardId, cardName, onClick, isNew}) {
+    console.log(isNew)
     return(
         <div className="grid_card" onClick={onClick}>
             {isNew && <div className='new_indicator'>Nouveau</div>}
-            <img fetchpriority="high" src={`https://voidsplit.github.io/assets-manager/src/assets/images/avif/optimized/${cardId}.avif`} alt={`Image representant un ${cardName}`} />
+            <img fetchPriority="high" src={`https://voidsplit.github.io/assets-manager/src/assets/images/avif/optimized/${cardId}.avif`} alt={`Image representant un ${cardName}`} />
             <div className="infos">
                 <div className="name">{cardName}</div>
                 <span className="id">#{cardId}</span>

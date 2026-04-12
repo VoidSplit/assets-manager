@@ -12,6 +12,7 @@
     position: relative;
 }
 .grid_card .new_indicator {
+    z-index: 5;
     position: absolute;
     background-color: rgb(212, 56, 56);
     padding: 5px 8px;
