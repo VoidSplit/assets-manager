@@ -31,6 +31,7 @@
     border-radius: 5px;
     object-fit: cover;
     background: #343437;
+    content-visibility: auto;
 }
 .grid_card .infos {
     display: flex;
