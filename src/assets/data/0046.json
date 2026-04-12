@@ -1,21 +1,21 @@
 {
-    "id": "0039",
+    "id": "0046",
     "name": "Chêne",
     "description": "Le chêne est un arbre majestueux des forêts tempérées, réputé pour sa longévité et sa robustesse. Son bois dur est très recherché en construction, en ébénisterie et pour la fabrication des tonneaux. Ses glands ont aussi nourri hommes et animaux.",
     "author": "VoidSplit1",
-    "date": "08/09/2025",
+    "date": "12/04/2026",
     "coords": {
-        "x": -3237,
+        "x": -3227,
         "y": -60,
-        "z": -3642
+        "z": -3657
     },
     "tags": ["moyen", "tempere", "vert", "commun", "normal"],
     "size": {
-        "length": 8,
-        "width": 8,
-        "height": 10
+        "length": 14,
+        "width": 11,
+        "height": 14
     },
     "img_paths": [
-        "0039"
+        "0046"
     ]
 }

@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'
 
 import './Grid_card.css'
-export function Grid_card({cardId, cardName, onClick}) {
+export function Grid_card({cardId, cardName, onClick, isNew}) {
     return(
         <div className="grid_card" onClick={onClick}>
+            {isNew && <div className='new_indicator'>Nouveau</div>}
             <img src={`https://voidsplit.github.io/assets-manager/src/assets/images/original/${cardId}.png`} alt={`Image representant un ${cardName}`} />
             <div className="infos">
                 <div className="name">{cardName}</div>

@@ -1,0 +1,9 @@
+{
+    "date": "12-04-2026",
+    "author": "VoidSplit1",
+    "version": "Release 1.0.2",
+    "changes": [
+        "Added a \"New\" to assets that are less than 30 days old"
+        
+    ]
+}
