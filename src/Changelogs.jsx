@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Sidebar } from './layouts/sidebar/Sidebar';
 import "./Changelogs.css";
 import { useEffect, useState } from 'react';
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Changelogs() {
   const [logs, setLogs] = useState([]);

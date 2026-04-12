@@ -6,7 +6,7 @@ import { faHammer } from "@fortawesome/free-solid-svg-icons";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import Simple_dropdown from './components/simple_dropdown/Simple_drodown';
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Faq() {
   return (
@@ -30,7 +30,7 @@ export default function Faq() {
                     <li>Rechercher un arbre par son ID ou son nom grâce au champ de recherche.</li>
                     <li>Filtrer les arbres par rareté, couleur, taille ou climat.</li>
                   </ul>
-                
+
                   <span className='spacing'></span>
                   <p><span className="bold underline">Fonctionnement des filtres :</span></p>
                   <ul>

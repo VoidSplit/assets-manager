@@ -5,7 +5,7 @@ import { Grid } from "./layouts/grid/Grid";
 import { Sidebar } from "./layouts/sidebar/Sidebar";
 import { Footer } from "./components/footer/Footer";
 import { Modal } from "./components/modal/Modal";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
     
 
 function App() {
