@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Sidebar } from './layouts/sidebar/Sidebar';
 import "./Changelogs.css";
 import { useEffect, useState } from 'react';
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Changelogs() {
   const [logs, setLogs] = useState([]);
@@ -25,31 +26,34 @@ export default function Changelogs() {
   }, []);
 
   return (
-    <div id="changelogs">
-      <div className="sidebar_parent">
-        <Sidebar />
-      </div>
-      <div className="changelogs_inner">
-        <div className="box">
-          <div className="top">
-            <h1 className='changelogs_h1'>Changelogs</h1>
-            <p className='changelogs_p'>All notable changes to this project will be documented in this file</p>
-          </div>
-          <div className="article_list">
-            {logs.map((log) => (
-              <article key={log.date}>
-                <div className="article_title">[{log.version}] - {log.date}</div>
-                <ul>
-                  {log.changes.map((change, index) => (
-                    <li key={index}>{change}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
+    <>
+      <div id="changelogs">
+        <div className="sidebar_parent">
+          <Sidebar />
+        </div>
+        <div className="changelogs_inner">
+          <div className="box">
+            <div className="top">
+              <h1 className='changelogs_h1'>Changelogs</h1>
+              <p className='changelogs_p'>All notable changes to this project will be documented in this file</p>
+            </div>
+            <div className="article_list">
+              {logs.map((log) => (
+                <article key={log.date}>
+                  <div className="article_title">[{log.version}] - {log.date}</div>
+                  <ul>
+                    {log.changes.map((change, index) => (
+                      <li key={index}>{change}</li>
+                    ))}
+                  </ul>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <Analytics/>
+    </>
   );
 }
 

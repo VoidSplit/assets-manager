@@ -5,6 +5,8 @@ import { Grid } from "./layouts/grid/Grid";
 import { Sidebar } from "./layouts/sidebar/Sidebar";
 import { Footer } from "./components/footer/Footer";
 import { Modal } from "./components/modal/Modal";
+import { Analytics } from "@vercel/analytics/next";
+    
 
 function App() {
   const [filters, setFilters] = useState({
@@ -89,28 +91,31 @@ function App() {
   }, [filters]);
   
   return (
-    <div id="app">
-      <Modal asset={selectedAsset} onClose={handleCloseModal}/>
-      <div className="sidebar_parent">
-        <Sidebar assetNumber={assets.length}/>
-      </div>
+    <>
+      <div id="app">
+        <Modal asset={selectedAsset} onClose={handleCloseModal}/>
+        <div className="sidebar_parent">
+          <Sidebar assetNumber={assets.length}/>
+        </div>
 
-      <div className="content_parent">
-        <div className="grid_manager_parent">
-          <div className="grid_parent">
-            <Grid assets={paginatedAssets} onCardClick={handleCardClick} />
-            <Footer 
-              currentPage={currentPage}
-              totalPages={totalPages}
-              onPageChange={handlePageChange}
-            />
-          </div>
-          <div className="filters_parent">
-            <Filters_bar onFiltersChange={setFilters} />
+        <div className="content_parent">
+          <div className="grid_manager_parent">
+            <div className="grid_parent">
+              <Grid assets={paginatedAssets} onCardClick={handleCardClick} />
+              <Footer 
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
+            </div>
+            <div className="filters_parent">
+              <Filters_bar onFiltersChange={setFilters} />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <Analytics/>
+    </>
   );
 }
 
